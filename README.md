@@ -1,7 +1,7 @@
 # A CORONA VIRUS SAMPLING CODE
 ###### Author: Raphael Sani
 ###### Date: April 01, 2020
-###### Class: Cohort 4 of _[Semicolon]_(http://www.semicolon.africa/)
+###### Class: Cohort 4 of [Semicolon](http://www.semicolon.africa/)
 ###### Description: A Corona Virus (COVID-19) sampling code that uses SCOREPOINTS to determine and control the rate of infectious persons.
 
 
@@ -24,9 +24,9 @@
          String q1 = scanner.next();
          input[0] = q1;
 
-         **check to see if the value in the array equals the yes at the position**
+         //check to see if the value in the array equals the yes at the position**
          if(input[0].equals("yes")){
-         	**if true, increase the var threatLevel by 1**
+         	//if true, increase the var threatLevel by 1**
          threatLevel += 1;
          }
          
@@ -125,17 +125,17 @@
          
 
 
-         **show the total entries in the array accordingly**
+         //show the total entries in the array accordingly**
          System.out.print("ENTRIES: ");
          System.out.println(Arrays.toString(input) + ".");
 
-         **show threat level
+         //show threat level
          System.out.println("THREAT LEVEL:" + threatLevel);
 
-         **print scores**
+         //print scores**
          System.out.println("SCORE RESULTS:" + threatLevel);
 
-         **check and advice according to threat Level**
+         //check and advice according to threat Level
          if(threatLevel <= 2){
           System.out.println("ADVICE: May be stress related and observe.");
 
@@ -152,7 +152,7 @@
 
          
 
-         **close the scanner obj**
+         //close the scanner obj
          scanner.close();
 
          :EMOJICODE:
