@@ -26,7 +26,7 @@
 
          //check to see if the value in the array equals the yes at the position
          if(input[0].equals("yes")){
-         	//if true, increase the var threatLevel by 1
+         	//if true, increment threatLevel by 1
          threatLevel += 1;
          }
          
@@ -84,6 +84,7 @@
          input[7] = q8;
 
          if(input[7].equals("yes")){
+         //increment threatLevel by 2
          threatLevel += 2;
          }
 
@@ -102,6 +103,7 @@
          input[9] = q10;
 
          if(input[9].equals("yes")){
+         //increment threatLevel by 3
          threatLevel += 3;
          }
 
@@ -132,10 +134,10 @@
          //show threat level
          System.out.println("THREAT LEVEL:" + threatLevel);
 
-         //print scores**
+         //print scores
          System.out.println("SCORE RESULTS:" + threatLevel);
 
-         //check and advice according to threat Level
+         //check and advise according to threat Level
          if(threatLevel <= 2){
           System.out.println("ADVICE: May be stress related and observe.");
 
