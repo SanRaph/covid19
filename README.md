@@ -14,7 +14,7 @@
          int length = 12;
 
          //String array to save user inputs
-         `String[] input = new String[length];`
+         String[] input = new String[length];
          
          //prompt user for 'yes' or 'no'
          System.out.println("Please answer by typing 'yes' or 'no':");
