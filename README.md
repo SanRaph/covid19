@@ -1,8 +1,8 @@
 # A CORONA VIRUS SAMPLING CODE
-###### Author: Raphael Sani
-###### Date: April 01, 2020
-###### Class: Cohort 4 of [Semicolon](http://www.semicolon.africa/)
-###### Description: A Corona Virus (COVID-19) sampling code that use _SCOREPOINTS_ to determine and control the rate of _infectious persons_, the program advises according to threat level recorded, if threat level is recorded high it recommends contacting medical authorities [NCDC](https://ncdc.gov.ng/).
+###### Author: Raphael Sani.
+###### Date: April 01, 2020.
+###### Class: Cohort 4 of [Semicolon](http://www.semicolon.africa/).
+###### Description: A Corona Virus (COVID-19) sampling code that uses _SCOREPOINTS_ to determine and control the rate of _infectious persons_, the program advises according to threat level recorded, if threat level is recorded high it recommends contacting _medical authorities_ [NCDC](https://ncdc.gov.ng/).
 
 
          //taking String array input from user using scanner
