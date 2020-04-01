@@ -2,31 +2,31 @@
 ###### Author: Raphael Sani
 ###### Date: April 01, 2020
 ###### Class: Cohort 4 of [Semicolon](http://www.semicolon.africa/)
-###### Description: A Corona Virus (COVID-19) sampling code that uses SCOREPOINTS to determine and control the rate of infectious persons.
+###### Description: A Corona Virus (COVID-19) sampling code that use _SCOREPOINTS_ to determine and control the rate of _infectious persons_.
 
 
-  **taking String array input from user using _scanner_ **
+         //taking String array input from user using scanner
          Scanner scanner = new Scanner(System.in);
           
-          **threatLevel tracks and hold _SCOREPOINTS_ **
-         `int threatLevel = 0;`
-         **total length of questionaire**
-         `int length = 12;`
+          //threatLevel tracks and hold SCOREPOINTS
+         int threatLevel = 0;
+         //total length of questionaire
+         int length = 12;
 
-         **String array to save user inputs**
+         //String array to save user inputs
          `String[] input = new String[length];`
          
-         **prompt user for _'yes'_ or _'no'_ **
+         //prompt user for 'yes' or 'no'
          System.out.println("Please answer by typing 'yes' or 'no':");
 
          System.out.println("Do you have cough?");
-         **get user input and put into the _input[] array_ by index**
+         //get user input and put into the _input[] array_ by index
          String q1 = scanner.next();
          input[0] = q1;
 
-         //check to see if the value in the array equals the yes at the position**
+         //check to see if the value in the array equals the yes at the position
          if(input[0].equals("yes")){
-         	//if true, increase the var threatLevel by 1**
+         	//if true, increase the var threatLevel by 1
          threatLevel += 1;
          }
          
@@ -125,7 +125,7 @@
          
 
 
-         //show the total entries in the array accordingly**
+         //show the total entries in the array accordingly
          System.out.print("ENTRIES: ");
          System.out.println(Arrays.toString(input) + ".");
 
@@ -155,6 +155,5 @@
          //close the scanner obj
          scanner.close();
 
-         :EMOJICODE:
 
 @SanRaph-semicolon :+1: Stay alive, don't die! :shipit:
